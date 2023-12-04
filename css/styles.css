@@ -47,7 +47,6 @@ h3 {
 }
 
 .container {
-  display: flex;
   max-width: 1158px;
   justify-content: center;
   margin: 0 auto;
