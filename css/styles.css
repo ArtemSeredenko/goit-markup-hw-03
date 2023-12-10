@@ -59,6 +59,8 @@ h3 {
 
 .header-container {
   display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .header__wrapper__nav {
@@ -100,6 +102,7 @@ h3 {
   letter-spacing: 0.32px;
   color: #2e2f42;
   padding: 24px 0;
+  display: block;
 }
 
 .top-menu-link:hover,
@@ -152,8 +155,7 @@ h3 {
   font-weight: 700;
   line-height: 1.07;
   letter-spacing: 0.02em;
-
-  margin-bottom: 48px;
+  margin: 0 auto 48px;
 }
 
 .hero-button {
@@ -168,6 +170,7 @@ h3 {
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.04em;
+  margin: 0 auto;
 }
 
 .hero-button:hover,
@@ -212,8 +215,6 @@ h3 {
   gap: 24px;
   align-items: center;
   justify-content: space-between;
-  padding-bottom: 120px;
-
   text-align: center;
 }
 
